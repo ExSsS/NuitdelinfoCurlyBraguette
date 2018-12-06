@@ -18,20 +18,69 @@
 package fr.curlybraguette;
 	
 import javafx.application.Application;
-import javafx.stage.Stage;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundFill;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
+import javafx.stage.Stage;
 
 
 public class MainS extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			BorderPane root = new BorderPane();
-			Scene scene = new Scene(root,400,400);
+			
+			
+			//Scene de login:
+			BorderPane rootLogin = new BorderPane();
+			VBox D = new VBox();
+			
+			
+			
+			//a changer
+			VBox G = new VBox();
+			
+			rootLogin.setRight(D);
+			rootLogin.setBackground(new Background(new BackgroundFill(Color.rgb(50,50,50), null, null)));
+			Scene scene = new Scene(rootLogin, 1280, 720);
+			D.prefWidthProperty().bind(scene.widthProperty().divide(2));
+			
+			//test
+			//D.setBackground(new Background(new BackgroundFill(Color.RED, null, null)));
+			
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			
+			D.setSpacing(10);
+			
+			Button Cserv = new Button("Créer Serveur");
+			D.getChildren().addAll(Cserv);
+			D.setAlignment(Pos.CENTER_LEFT);
+			
+			Label noServ = new Label("ERREUR PAS DE SERVEUR");
+			D.getChildren().addAll(noServ);
+			noServ.setId("warning");
+			
+			Label id = new Label("ID Serveur : XXXX.XXXX.XXXX.XXXX");
+			D.getChildren().addAll(id);
+			id.setId("indicator");
+			
+			Label port = new Label("Port Serveur : XX");
+			D.getChildren().addAll(port);
+			port.setId("indicator");
+			
+			Button dServ = new Button("Demande de connection");
+			D.getChildren().addAll(dServ);
+			
 			primaryStage.setScene(scene);
+			primaryStage.setTitle("Brag Edit");
 			primaryStage.show();
+			
+			
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
