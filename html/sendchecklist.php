@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-echo oui
+echo "oui"
 echo $_POST['checkboxpipi']; 
 ?>
 </html>
