@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="./tout.css" media="all"/> 
 <link rel="stylesheet" type="text/css" href="./header.css" media="all"/> 
 </head>
-<!-- <body>
+ <body>
 
 
 <div class="header">
@@ -19,7 +19,7 @@
 </body>
 
 
-</head> -->
+</head> 
 <body>
 
 
