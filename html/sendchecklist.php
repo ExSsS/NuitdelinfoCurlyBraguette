@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-echo 'oui';
+echo "oui";
 ?>
 oui
 </html>
