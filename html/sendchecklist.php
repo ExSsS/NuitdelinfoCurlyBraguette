@@ -1,5 +1,5 @@
 <!DOCTYPE html>
 <?php
-echo "oui"
-echo $_POST['checkboxpipi']; 
+echo("oui");
+echo($_POST['checkboxpipi']); 
 ?>
