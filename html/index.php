@@ -27,8 +27,8 @@
   <div class="col-3 menu">
     <ul>
     <form method="post" action="sendchecklist.php">
-      <input type="checkbox" id="checkboxpipi">Pipi<br/>
-      <input type="checkbox" id="checkboxglouglou">Glouglou<br/>
+      <input type="checkbox" name="checkboxpipi">Pipi<br/>
+      <input type="checkbox" name="checkboxglouglou">Glouglou<br/>
       <input type="submit" value="Valider" />
     </form>
     </ul>
