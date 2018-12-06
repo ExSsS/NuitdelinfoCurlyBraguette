@@ -17,9 +17,16 @@
 package fr.curlybraguette;
 	
 import javafx.application.Application;
-import javafx.stage.Stage;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundFill;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
+import javafx.stage.Stage;
 
 
 public class MainC extends Application {
@@ -28,11 +35,38 @@ public class MainC extends Application {
 		try {
 			
 			
+			//Scene de login:
+			StackPane rootLogin = new StackPane();
 			
-			BorderPane root = new BorderPane();
-			Scene scene = new Scene(root,400,400);
+			Scene scene = new Scene(rootLogin, 1280, 720);
+			
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			
+			VBox loginBox = new VBox();
+			loginBox.setBackground(new Background(new BackgroundFill(Color.RED, null, null)));
+			loginBox.setSpacing(10);
+			
+			loginBox.maxHeightProperty().bind(scene.heightProperty().divide(3));
+			loginBox.maxWidthProperty().bind(scene.widthProperty().divide(3));
+			loginBox.setMinHeight(200);
+			loginBox.setMinWidth(500);
+			
+			Label indications = new Label("Entrez votre pseudo :");
+			
+			TextField entreeLogin = new TextField();
+			Button bLogin = new Button("OK");
+			
+			
+			
+			loginBox.getChildren().addAll(indications, entreeLogin, bLogin);
+			
+			
+			rootLogin.getChildren().addAll(loginBox);
+			
+			
+			
 			primaryStage.setScene(scene);
+			primaryStage.setTitle("Brag Edit");
 			primaryStage.show();
 			
 			
