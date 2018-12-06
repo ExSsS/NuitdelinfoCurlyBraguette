@@ -1,8 +1,3 @@
-<?php
-$filename = "/json/oui.txt"
-file_put_contents ( string $filename , mixed $_POST['checkboxpipi'], [, int $flags = 0 [, resource $context ]] )
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
