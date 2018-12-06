@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <?php
 
 echo $_POST['checkboxpipi']; 
@@ -14,3 +16,4 @@ file_put_contents ( string $filename , mixed (echo $myJSON) [, int $flags = 0 [,
 echo "OUIOUIOUIOUIOUI"*/
 
 ?>
+</html>
