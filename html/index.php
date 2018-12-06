@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="./tout.css" media="all"/> 
 <link rel="stylesheet" type="text/css" href="./header.css" media="all"/> 
 </head>
- <body>
+<!-- <body>
 
 
 <div class="header">
@@ -19,14 +19,14 @@
 </body>
 
 
-</head> 
+</head> -->
 <body>
 
 
 <div class="row">
   <div class="col-3 menu">
     <ul>
-    <form method="post" action="squelette.php">
+    <form method="post" action="sendchecklist.php">
       <input type="checkbox" id="checkboxpipi">Pipi<br/>
       <input type="checkbox" id="checkboxglouglou">Glouglou<br/>
       <input type="submit" value="Valider" />
