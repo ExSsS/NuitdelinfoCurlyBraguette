@@ -17,6 +17,7 @@
 package fr.curlybraguette;
 	
 import javafx.application.Application;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -37,13 +38,13 @@ public class MainC extends Application {
 			
 			//Scene de login:
 			StackPane rootLogin = new StackPane();
-			
+			rootLogin.setBackground(new Background(new BackgroundFill(Color.rgb(50,50,50), null, null)));
 			Scene scene = new Scene(rootLogin, 1280, 720);
 			
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			
 			VBox loginBox = new VBox();
-			loginBox.setBackground(new Background(new BackgroundFill(Color.RED, null, null)));
+			//loginBox.setBackground(new Background(new BackgroundFill(Color.RED, null, null)));
 			loginBox.setSpacing(10);
 			
 			loginBox.maxHeightProperty().bind(scene.heightProperty().divide(3));
@@ -51,17 +52,35 @@ public class MainC extends Application {
 			loginBox.setMinHeight(200);
 			loginBox.setMinWidth(500);
 			
-			Label indications = new Label("Entrez votre pseudo :");
 			
+			
+			Label indicationsLogin = new Label("Entrez votre pseudo :");
 			TextField entreeLogin = new TextField();
-			Button bLogin = new Button("OK");
+			entreeLogin.prefWidthProperty().bind(loginBox.widthProperty());
+			loginBox.getChildren().addAll(indicationsLogin, entreeLogin);
 			
 			
+			Label indicationsIP = new Label("Entrez l'IPv4 du serveur :");
+			TextField entreeIP = new TextField();
+			entreeIP.prefWidthProperty().bind(loginBox.widthProperty());
+			loginBox.getChildren().addAll(indicationsIP, entreeIP);
 			
-			loginBox.getChildren().addAll(indications, entreeLogin, bLogin);
+			Label indicationsPort = new Label("Entrez le port du serveur :");
+			TextField entreePort = new TextField();
+			entreeIP.prefWidthProperty().bind(loginBox.widthProperty());
+			loginBox.getChildren().addAll(indicationsPort, entreePort);
 			
 			
+			Button boutonOK = new Button("Connexion");
+			loginBox.getChildren().addAll(boutonOK);
+			
+			loginBox.setAlignment(Pos.CENTER);
 			rootLogin.getChildren().addAll(loginBox);
+			
+			
+			
+			
+			
 			
 			
 			
