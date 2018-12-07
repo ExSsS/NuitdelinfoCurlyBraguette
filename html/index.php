@@ -37,7 +37,7 @@
       <div class="check"> <input type="submit" value="Valider" />
     </form>
     </ul>
-    <img src = "image/logo.png" width = "200" height = "40" alt = "Espoir informatique">
+    <img src = "image/logo.png" width = "300" height = "300" alt = "Curly Braguette">
   </div>
   <div class="col-6">
     <h1 >Namivie</h1>
