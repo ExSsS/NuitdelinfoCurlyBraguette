@@ -54,9 +54,9 @@
     <div classe="Mission">
     <ul>
     <form method="post" action="Mission.php">
-
+    <div class="champ">
     <label for="date">Date</label>
-<div class="champ">
+
 <input type="text" id="date" name="date" required
        minlength="4" maxlength="10" size="10">
     </div>
@@ -71,7 +71,7 @@
        <label for="equipement">Equipement</label>
 
 <input type="text" id="equipement" name="equipement" required
-       minlength="0" maxlength="300" size="300">
+       minlength="0" maxlength="30" size="300">
        </div>
     </form>
     </ul>
