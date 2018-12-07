@@ -35,6 +35,7 @@ html {
   margin-bottom: 7px;
   background-color: #9af3e700;
   color: #0178ff;
+  font-style: gras;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
@@ -47,7 +48,8 @@ html {
   padding: 15px;
   color: #0178ff;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
+  font-style: gras;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
@@ -55,13 +57,14 @@ html {
   background-color: #bb00cc00;
   color: #0178ff;
   text-align: center;
+  font-style: gras;
   font-size: 12px;
   padding: 15px;
 }
 
 .check {
   color: #0178ff;
-  padding: 15px;
+  padding: 10px;
 }
 
 /* For mobile phones: */
