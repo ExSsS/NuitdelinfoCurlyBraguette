@@ -12,7 +12,7 @@ $checklist->sante = $_POST['chk_sante'];
 
 $myjson = json_encode($checklist);
 
-$fp = fopen('lidn.txt', 'w');
+$fp = fopen('test.txt', 'w');
 fwrite($fp, 'Cats chase mice');
 fclose($fp);
 ?>
