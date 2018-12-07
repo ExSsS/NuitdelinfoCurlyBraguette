@@ -65,6 +65,14 @@ h1{
   font-size: 12px;
   padding: 15px;
 }
+.petitBidule{
+  background-color: #bb00cc00;
+  color: #000000;
+  text-align: center;
+  font-style: Bold;
+  font-size: 1px;
+  padding: 1px;
+}
 .meteo{
   background-color: #bb00cc00;
   color: #000000;
