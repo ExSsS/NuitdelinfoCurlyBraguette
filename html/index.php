@@ -49,11 +49,12 @@
 
   <div class="col-3 right">
   <div id="progress">
-    <p>Jour<strong>0</strong></p>
+    <p>Jour<strong> 50</strong></p>
     <progress value="50" min="0" max="121">50</progress>
     <div classe="Mission">
     <ul>
     <form method="post" action="Mission.php">
+
     <div class="champ">
     <label for="date">Date</label>
 
@@ -71,9 +72,9 @@
        <label for="equipement">Equipement</label>
 <textarea id="equipement" name="equipement"
           rows="5" cols="33">
+          </div>
 </textarea>
-
-       </div>
+<input type="submit" value="Valider" />
     </form>
     </ul>
     </div>
