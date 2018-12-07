@@ -12,11 +12,12 @@ $checklist->camp = $_POST['chk_camp'];
 $checklist->sante = $_POST['chk_sante'];
 
 $json_decode=json_decode(file_get_contents($path),true);
+echo $json_decode;/*
 array_unshift($checklist,$json_decode);
 
 file_put_contents($path,json_encode($json_decode);
 
-include 'index.php'
+include 'index.php'*/
 ?>
 
 </html>
