@@ -65,7 +65,14 @@ h1{
   font-size: 12px;
   padding: 15px;
 }
-
+.col-6 menu{
+  background-color: #bb00cc00;
+  color: #000000;
+  text-align: center;
+  font-style: Bold;
+  font-size: 30px;
+  padding: 10px;
+}
 .check2 {
   background-color: #bb00cc00;
   color: #000000;
