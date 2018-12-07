@@ -2,7 +2,7 @@
 <html>
 <?php
 $path="/data/checklist.json";
-echo "REPONDS MOI FDP";
+echo "REPONDS MOI FDP";/*
 $checklist->date=date('l jS \of F Y');
 $checklist->panneauSolaires = $_POST['chk_panneauSolaires'];
 $checklist->eoliennes = $_POST['chk_eoliennes'];
