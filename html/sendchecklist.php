@@ -2,7 +2,7 @@
 <html>
 <?php
 $path="/data/checklist.json";
-echo "REPONDS MOI FDP";
+
 $date = date('l jS \of F Y');
 $checklist->date=$date;
 $checklist->panneauSolaires = $_POST['chk_panneauSolaires'];
@@ -14,12 +14,12 @@ $checklist->sante = $_POST['chk_sante'];
 
 $json_decode=json_decode(file_get_contents($path),true);
 echo file_get_contents($path);
-echo $json_decode;/*
+echo $json_decode;
 array_unshift($checklist,$json_decode);
 
 file_put_contents($path,json_encode($json_decode);
 
-include 'index.php'*/
+include 'index.php'
 ?>
 
 </html>
