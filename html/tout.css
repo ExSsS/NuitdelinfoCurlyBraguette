@@ -19,7 +19,7 @@ html {
 
 .header2 {
   background-color: #f4fd6d94;
-  color: #0178ff;
+  color: #000000;
   padding: 20px;
 }
 
@@ -34,7 +34,7 @@ html {
   padding: 8px;
   margin-bottom: 7px;
   background-color: #9af3e700;
-  color: #0178ff;
+  color: #000000;
   font-style: gras;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
@@ -46,7 +46,7 @@ html {
 .aside {
   background-color: #33b6e500;
   padding: 15px;
-  color: #0178ff;
+  color: #000000;
   text-align: center;
   font-size: 16px;
   font-style: gras;
@@ -55,7 +55,7 @@ html {
 
 .footer {
   background-color: #bb00cc00;
-  color: #0178ff;
+  color: #000000;
   text-align: center;
   font-style: gras;
   font-size: 12px;
@@ -64,7 +64,7 @@ html {
 
 .check2 {
   background-color: #bb00cc00;
-  color: #0178ff;
+  color: #000000;
   text-align: left;
   font-style: Bold;
   font-size: 20px;
@@ -73,7 +73,7 @@ html {
 
 .check {
   background-color: #bb00cc00;
-  color: #0178ff;
+  color: #000000;
   text-align: left;
   font-style: Bold;
   font-size: 20px;

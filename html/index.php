@@ -40,7 +40,7 @@
   </div>
 ws  
   <div class="col-6">
-    <h1 class ="Titre">Namivie</h1>
+    <h1 >Namivie</h1>
   </div>
 
   <div class="col-3 right">
