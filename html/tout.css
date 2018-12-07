@@ -63,8 +63,15 @@ html {
 }
 
 .check {
+  background-color: #bb00cc00;
   color: #0178ff;
-  padding: 10px;
+  text-align: center;
+  font-style: gras;
+  font-size: 12px;
+  padding: 15px;
+}
+.check:hover {
+  background-color: #0178ff;
 }
 
 /* For mobile phones: */
