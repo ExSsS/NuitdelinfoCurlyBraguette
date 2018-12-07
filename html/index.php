@@ -53,7 +53,7 @@
     <progress value="50" min="0" max="121">50</progress>
     <div classe="Mission">
     <ul>
-    <form method="post" action="Mission.php">
+    <form method="post" action="sendmission.php">
 
     <div class="champ">
     <label for="date">Date</label>
@@ -72,8 +72,8 @@
        <label for="equipement">Equipement</label>
 <textarea id="equipement" name="equipement"
           rows="5" cols="33">
-          </div>
 </textarea>
+</div>
 <input type="submit" value="Valider" />
     </form>
     </ul>
