@@ -37,6 +37,7 @@
       <div class="check"> <input type="submit" value="Valider" />
     </form>
     </ul>
+    <img src = "image/logo.png" width = "300" height = "300" alt = "Curly Braguette">
   </div>
   <div class="col-6">
     <h1 >Namivie</h1>
@@ -80,12 +81,8 @@
     </div>
 </div>
     <div class="aside">
-    <iframe
-  width = "600"
-  hauteur = "450"
-  frameborder = "0" style = "border: 0"
-  src = "https://www.google.com/maps/embed/v1/place?key=AIzaSyCLG4EHtcL496f0pu41J-mosN6V6snqWuI"Autoriser l’écran>>
-</ iframe>
+    <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=namib&key=AIzaSyCLG4EHtcL496f0pu41J-mosN6V6snqWuI" allowfullscreen>
+    </iframe>
     </div>
   </div>
 </div>
