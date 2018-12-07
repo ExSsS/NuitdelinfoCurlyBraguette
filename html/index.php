@@ -49,7 +49,9 @@
 
   <div class="col-3 right">
     <div classe ="progresbar">
-      $('#barre').progressbar({value : 50});
+      <script>
+      $('#barre').progressbar({value : 50});</script>
+      
     </div>
     <div class="aside">
       <h2>What?</h2>
