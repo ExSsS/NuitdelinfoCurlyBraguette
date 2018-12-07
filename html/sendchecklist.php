@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <?php
-echo $_POST['checkboxpipi'];
+$checklist->pipi = $_POST['checkboxpipi'];
+$checklist->glouglou = $_POST['checkboxglouglou'];
+
+$myjson = json_encode($checklist);
+echo $myjson;
 ?>
 </html>
