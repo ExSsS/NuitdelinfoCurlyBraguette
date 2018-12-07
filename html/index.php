@@ -27,8 +27,13 @@
   <div class="col-3 menu">
     <ul>
     <form method="post" action="sendchecklist.php">
-      <input type="checkbox" name="checkboxpipi">Pipi<br/>
-      <input type="checkbox" name="checkboxglouglou">Glouglou<br/>
+      <div>Checklist journalière</div>
+      <input type="checkbox" name="chk_panneauSolaires">Panneaux solaires<br/>
+      <input type="checkbox" name="chk_eoliennes">Eoliennes<br/>
+      <input type="checkbox" name="chk_robots">Robots<br/>
+      <input type="checkbox" name="chk_systemesSurvie">Système de survie<br/>
+      <input type="checkbox" name="chk_camp">Contrôle du camp<br/>
+      <input type="checkbox" name="chk_sante">Protocole de santé<br/>
       <input type="submit" value="Valider" />
     </form>
     </ul>
