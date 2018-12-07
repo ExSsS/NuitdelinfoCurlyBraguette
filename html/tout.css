@@ -62,10 +62,19 @@ html {
   padding: 15px;
 }
 
+.check2 {
+  background-color: #bb00cc00;
+  color: #0178ff;
+  text-align: left;
+  font-style: Bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
 .check {
   background-color: #bb00cc00;
   color: #0178ff;
-  text-align: right;
+  text-align: left;
   font-style: Bold;
   font-size: 20px;
   padding: 10px;

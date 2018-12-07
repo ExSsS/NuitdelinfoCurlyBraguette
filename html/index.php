@@ -27,7 +27,7 @@
   <div class="col-3 menu">
     <ul>
     <form method="post" action="sendchecklist.php">
-      <div class="check">Checklist journalière</div>
+      <div class="check2">Checklist journalière</div>
       <div class="check"> <input type="checkbox" name="chk_panneauSolaires"> Panneaux solaires<br/></div>
       <div class="check"><input type="checkbox" name="chk_eoliennes"> Eoliennes<br/></div>
       <div class="check"><input type="checkbox" name="chk_robots">  Robots<br/></div>
