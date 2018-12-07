@@ -12,8 +12,8 @@ $checklist->sante = $_POST['chk_sante'];
 
 $myjson = json_encode($checklist);
 
-$fp = fopen('test.txt', 'w');
-fwrite($fp, 'Cats chase mice');
+$fp = fopen('data/checklist.json', 'w');
+fwrite($fp, $myjson);
 fclose($fp);
 ?>
 </html>
