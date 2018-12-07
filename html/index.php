@@ -51,6 +51,28 @@
   <div id="progress">
     <p>Jour<strong>0</strong></p>
     <progress value="50" min="0" max="121">50</progress>
+    <div classe="Mission">
+    <ul>
+    <form method="post" action="Mission.php">
+
+    <label for="date">Date</label>
+
+<input type="text" id="date" name="date" required
+       minlength="4" maxlength="10" size="10">
+
+       <label for="duree">Duree en jou</label>
+
+<input type="text" id="duree" name="duree" required
+       minlength="0" maxlength="10" size="10">
+
+       <label for="equipement">Equipement</label>
+
+<input type="text" id="equipement" name="equipement" required
+       minlength="0" maxlength="30" size="30">
+
+    </form>
+    </ul>
+    </div>
 </div>
     <div class="aside">
     <iframe
