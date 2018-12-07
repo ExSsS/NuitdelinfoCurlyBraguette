@@ -71,7 +71,7 @@
        <label for="equipement">Equipement</label>
 
 <input type="text" id="equipement" name="equipement" required
-       minlength="0" maxlength="30" size="30">
+       minlength="0" maxlength="300" size="300">
        </div>
     </form>
     </ul>
