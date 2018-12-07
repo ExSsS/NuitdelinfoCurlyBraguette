@@ -12,8 +12,8 @@ $checklist->sante = $_POST['chk_sante'];
 
 $myjson = json_encode($checklist);
 
-$filename = "checklist.txt";
-$err = file_put_contents($filename ,"oui");
-echo $err;
+$fp = fopen('lidn.txt', 'w');
+fwrite($fp, 'Cats chase mice');
+fclose($fp);
 ?>
 </html>
