@@ -11,10 +11,9 @@ $checklist->camp = $_POST['chk_camp'];
 $checklist->sante = $_POST['chk_sante'];
 
 $myjson = json_encode($checklist);
-echo $myjson;
 
 $filename = "checklist.txt";
-file_put_contents($filename ,"oui");
-
+$err = file_put_contents($filename ,"oui");
+echo $err;
 ?>
 </html>
