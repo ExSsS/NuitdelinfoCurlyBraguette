@@ -65,13 +65,13 @@ html {
 .check {
   background-color: #bb00cc00;
   color: #0178ff;
-  text-align: center;
+  text-align: right;
   font-style: Bold;
   font-size: 20px;
   padding: 10px;
 }
 .check:hover {
-  background-color: #4e9df8ad;
+  background-color: #b2c8e250;
 }
 
 /* For mobile phones: */
