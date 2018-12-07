@@ -3,8 +3,8 @@
 <?php
 $path="/data/checklist.json";
 echo "REPONDS MOI FDP";
-$date = date('l jS \of F Y');
-$checklist->date=$date;
+/*$date = date('l jS \of F Y');
+$checklist->date=$date;*/
 $checklist->panneauSolaires = $_POST['chk_panneauSolaires'];
 $checklist->eoliennes = $_POST['chk_eoliennes'];
 $checklist->robots = $_POST['chk_robots'];
