@@ -28,17 +28,17 @@
     <ul>
     <form method="post" action="sendchecklist.php">
       <div>Checklist journalière</div>
-      <input type="checkbox" name="chk_panneauSolaires"> <div class="check">Panneaux solaires</div><br/>
-      <input type="checkbox" name="chk_eoliennes"> <div class="check">Eoliennes</div><br/>
-      <input type="checkbox" name="chk_robots">  <div class="check">Robots</div><br/>
-      <input type="checkbox" name="chk_systemesSurvie"> <div class="check">Système de survie</div><br/>
-      <input type="checkbox" name="chk_camp"> <div class="check">Contrôle du camp</div><br/>
-      <input type="checkbox" name="chk_sante"> <div class="check">Protocole de santé</div><br/>
-      <input type="submit" value="Valider" />
+      <div class="check"> <input type="checkbox" name="chk_panneauSolaires"> Panneaux solaires<br/></div>
+      <div class="check">  <input type="checkbox" name="chk_eoliennes"> <div class="check">Eoliennes<br/></div>
+      <div class="check"><input type="checkbox" name="chk_robots">  <div class="check">Robots<br/></div>
+      <div class="check"> <input type="checkbox" name="chk_systemesSurvie"> <div class="check">Système de survie<br/></div>
+      <div class="check"><input type="checkbox" name="chk_camp"> <div class="check">Contrôle du camp<br/></div>
+      <div class="check"><input type="checkbox" name="chk_sante"> <div class="check">Protocole de santé<br/></div>
+      <div class="check"> <input type="submit" value="Valider" />
     </form>
     </ul>
   </div>
-
+ws  
   <div class="col-6">
     <h1 class ="Titre">Namivie</h1>
   </div>
