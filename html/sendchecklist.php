@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <?php
-$checklist->date = 
 $checklist->panneauSolaires = $_POST['chk_panneauSolaires'];
 $checklist->eoliennes = $_POST['chk_eoliennes'];
 $checklist->robots = $_POST['chk_robots'];
@@ -18,7 +17,7 @@ $fp = fopen('data/checklistjson', 'w');
 fwrite($fp, $chk_json);
 fclose($fp);
 
-include "index.php"
+include 'index.php'
 ?>
 
 </html>
