@@ -27,13 +27,13 @@
   <div class="col-3 menu">
     <ul>
     <form method="post" action="sendchecklist.php">
-      <div>Checklist journalière</div>
+      <div class="check">Checklist journalière</div>
       <div class="check"> <input type="checkbox" name="chk_panneauSolaires"> Panneaux solaires<br/></div>
-      <div class="check">  <input type="checkbox" name="chk_eoliennes"> <div class="check">Eoliennes<br/></div>
-      <div class="check"><input type="checkbox" name="chk_robots">  <div class="check">Robots<br/></div>
-      <div class="check"> <input type="checkbox" name="chk_systemesSurvie"> <div class="check">Système de survie<br/></div>
-      <div class="check"><input type="checkbox" name="chk_camp"> <div class="check">Contrôle du camp<br/></div>
-      <div class="check"><input type="checkbox" name="chk_sante"> <div class="check">Protocole de santé<br/></div>
+      <div class="check"><input type="checkbox" name="chk_eoliennes"> Eoliennes<br/></div>
+      <div class="check"><input type="checkbox" name="chk_robots">  Robots<br/></div>
+      <div class="check"><input type="checkbox" name="chk_systemesSurvie"> Système de survie<br/></div>
+      <div class="check"><input type="checkbox" name="chk_camp"> Contrôle du camp<br/></div>
+      <div class="check"><input type="checkbox" name="chk_sante">Protocole de santé<br/></div>
       <div class="check"> <input type="submit" value="Valider" />
     </form>
     </ul>
