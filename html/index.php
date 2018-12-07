@@ -61,7 +61,7 @@
        minlength="4" maxlength="10" size="10">
     </div>
        <div class="champ">
-       <label for="duree">Duree en jou</label>
+       <label for="duree">Duree en jour</label>
     
 
   <input type="text" id="duree" name="duree" required
@@ -70,8 +70,12 @@
        <div class="champ">
        <label for="equipement">Equipement</label>
 
-<input type="text" id="equipement" name="equipement" required
-       minlength="0" maxlength="30" size="300">
+<label for="story">Tell us your story:</label>
+
+<textarea id="equipement" name="equipement"
+          rows="5" cols="33">
+</textarea>
+
        </div>
     </form>
     </ul>
