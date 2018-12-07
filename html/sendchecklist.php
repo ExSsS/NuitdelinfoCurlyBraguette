@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <?php
+$path="/data/checklist.json"
+
 $checklist->date=date('l jS \of F Y');
 $checklist->panneauSolaires = $_POST['chk_panneauSolaires'];
 $checklist->eoliennes = $_POST['chk_eoliennes'];
@@ -9,23 +11,10 @@ $checklist->systemesSurvie = $_POST['chk_systemesSurvie'];
 $checklist->camp = $_POST['chk_camp'];
 $checklist->sante = $_POST['chk_sante'];
 
-$chk_json = json_encode($checklist);
+$json_decode=json_decode(file_get_contents($path),true);
+array_unshift($checklist,$json_decode);
 
-/*
-$fp = fopen('data/checklist.json', 'w');
-fwrite($fp, $chk_json);
-fclose($fp);*/
-
-$data = file('data/checklist.json'); // reads an array of lines
-function replace_a_line($data) {
-   if (stristr($data, date('l jS \of F Y')) {
-     return "\n".$data;
-   }
-   return $data;
-}
-$data = array_map('replace_a_line',$data);
-fwrite($fp, $data);
-fclose($fp);
+file_put_contents($path,json_encode($json_decode);
 
 include 'index.php'
 ?>
