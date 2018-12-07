@@ -53,12 +53,8 @@
     <progress value="50" min="0" max="121">50</progress>
 </div>
     <div class="aside">
-      <h2>What?</h2>
-      <p>Chania is a city on the island of Crete.</p>
-      <h2>Where?</h2>
-      <p>Crete is a Greek island in the Mediterranean Sea.</p>
-      <h2>How?</h2>
-      <p>You can reach Chania airport from all over Europe.</p>
+    <iframe width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=namib&key=..." allowfullscreen></iframe>
     </div>
   </div>
 </div>
