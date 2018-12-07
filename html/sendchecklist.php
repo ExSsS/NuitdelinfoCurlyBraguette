@@ -12,7 +12,7 @@ $checklist->sante = $_POST['chk_sante'];
 $chk_json = json_encode($checklist);
 
 
-$fp = fopen('data/checklistjson', 'w');
+$fp = fopen('data/checklist.json', 'w');
 fwrite($fp, $chk_json);
 fclose($fp);
 /*
