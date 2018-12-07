@@ -56,20 +56,23 @@
     <form method="post" action="Mission.php">
 
     <label for="date">Date</label>
-
+<div class="champ">
 <input type="text" id="date" name="date" required
        minlength="4" maxlength="10" size="10">
-
+    </div>
+       <div class="champ">
        <label for="duree">Duree en jou</label>
+    
 
-<input type="text" id="duree" name="duree" required
+  <input type="text" id="duree" name="duree" required
        minlength="0" maxlength="10" size="10">
-
+    </div>
+       <div class="champ">
        <label for="equipement">Equipement</label>
 
 <input type="text" id="equipement" name="equipement" required
        minlength="0" maxlength="30" size="30">
-
+       </div>
     </form>
     </ul>
     </div>

@@ -128,6 +128,16 @@ progress{
   width: 100%;
 }
 
+.champ {
+  background-color: #ffffff3a;
+  color: #000000;
+  text-align: center;
+  font-style: Bold;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
