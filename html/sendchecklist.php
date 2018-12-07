@@ -14,7 +14,7 @@ $myjson = json_encode($checklist);
 echo $myjson;
 
 $filename = "/data/checklist.json";
-file_put_contents ( string $filename , mixed (echo $myjson) [, int $flags = 0 [, resource $context ]] );
+file_put_contents($filename ,"oui");
 
 ?>
 </html>
