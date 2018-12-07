@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php
-$path="/data/checklist.json"
+$path="/data/checklist.json";
 
 $checklist->date=date('l jS \of F Y');
 $checklist->panneauSolaires = $_POST['chk_panneauSolaires'];
@@ -10,7 +10,7 @@ $checklist->robots = $_POST['chk_robots'];
 $checklist->systemesSurvie = $_POST['chk_systemesSurvie'];
 $checklist->camp = $_POST['chk_camp'];
 $checklist->sante = $_POST['chk_sante'];
-/*
+
 $json_decode=json_decode(file_get_contents($path),true);
 echo $json_decode;/*
 array_unshift($checklist,$json_decode);
