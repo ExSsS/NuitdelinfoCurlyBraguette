@@ -38,7 +38,6 @@
     </form>
     </ul>
   </div>
-ws  
   <div class="col-6">
     <h1 >Namivie</h1>
     <div class="meteo">
@@ -49,6 +48,9 @@ ws
   </div>
 
   <div class="col-3 right">
+    <div classe ="progresbar">
+      $('#barre').progressbar({value : 50});
+    </div>
     <div class="aside">
       <h2>What?</h2>
       <p>Chania is a city on the island of Crete.</p>
