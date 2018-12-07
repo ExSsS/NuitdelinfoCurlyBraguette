@@ -48,13 +48,10 @@
   </div>
 
   <div class="col-3 right">
-    <div classe ="progresbar">
-    <script type="text/javascript">
- ('#barre').progressbar({value : 50});
-  </script>
-     
-      
-    </div>
+  <div id="progress">
+    <p>Retrieving data...<strong>0%</strong></p>
+    <progress value="5" min="0" max="100">0%</progress>
+</div>
     <div class="aside">
       <h2>What?</h2>
       <p>Chania is a city on the island of Crete.</p>
