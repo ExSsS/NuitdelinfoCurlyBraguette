@@ -62,7 +62,7 @@ html {
   padding: 15px;
 }
 
-.col-3 menu {
+.check {
   background-color: #bb00cc00;
   color: #0178ff;
   text-align: center;
@@ -70,7 +70,7 @@ html {
   font-size: 12px;
   padding: 15px;
 }
-.col-3 menu :hover {
+.check:hover {
   background-color: #4e9df8ad;
 }
 
