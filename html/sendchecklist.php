@@ -12,6 +12,7 @@ $checklist->camp = $_POST['chk_camp'];
 $checklist->sante = $_POST['chk_sante'];
 
 $json_decode=json_decode(file_get_contents($path),true);
+echo file_get_contents($path);
 echo $json_decode;/*
 array_unshift($checklist,$json_decode);
 
