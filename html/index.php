@@ -49,8 +49,8 @@
 
   <div class="col-3 right">
   <div id="progress">
-    <p>Jour<strong>0%</strong></p>
-    <progress value="50" min="0" max="100">50%</progress>
+    <p>Jour<strong>0</strong></p>
+    <progress value="50" min="0" max="121">50</progress>
 </div>
     <div class="aside">
       <h2>What?</h2>
