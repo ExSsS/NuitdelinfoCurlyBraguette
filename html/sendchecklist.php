@@ -13,7 +13,7 @@ $checklist->sante = $_POST['chk_sante'];
 $myjson = json_encode($checklist);
 echo $myjson;
 
-$filename = "checklist.json";
+$filename = "checklist.txt";
 file_put_contents($filename ,"oui");
 
 ?>
