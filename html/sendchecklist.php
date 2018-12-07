@@ -11,21 +11,22 @@ $checklist->sante = $_POST['chk_sante'];
 
 $chk_json = json_encode($checklist);
 
-
+/*
 $fp = fopen('data/checklist.json', 'w');
 fwrite($fp, $chk_json);
-fclose($fp);
-/*
+fclose($fp);*/
+
 $data = file('data/checklist.json'); // reads an array of lines
 function replace_a_line($data) {
    if (stristr($data, date('l jS \of F Y')) {
-     return chk_json;
+     return "\n".data;
    }
    return $data;
 }
 $data = array_map('replace_a_line',$data);
-file_put_contents('myfile', implode('', $data));
-*/
+fwrite($fp, $data);
+fclose($fp);
+
 include 'index.php'
 ?>
 
