@@ -11,6 +11,7 @@ $checklist->systemesSurvie = $_POST['chk_systemesSurvie'];
 $checklist->camp = $_POST['chk_camp'];
 $checklist->sante = $_POST['chk_sante'];
 
+echo $checklist;
 $json_decode=json_decode(file_get_contents($path),true);
 echo file_get_contents($path);
 echo $json_decode;/*
