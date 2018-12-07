@@ -4,11 +4,14 @@
 $path="/data/missions.txt";
 
 $str = 'date : '.$_POST['date'].', duree : '.$_POST['duree'].', equipement : '.$_POST['equipement'];
-echo $str;
-//file_put_contents($path,$_POST['date'].' ');
+$current = file_get_contents($path,FILE_USE_INCLUDE_PATH);
+echo $current;
+$current = $current.$str;
+echo $current;
+file_put_contents($path,"enculé de ta mère");
 
 
-//include 'index.php'
+include 'index.php';
 ?>
 
 </html>
