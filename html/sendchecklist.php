@@ -13,13 +13,12 @@ $checklist_tot->date('l jS \of F Y')=json_encode($checklist);
 $chk_json = json_encode($checklist_tot);
 echo $checklist_tot;
 
-if (stristr($data, 'certain word')) {
-    return "replaement line!\n";
-  }
-  return $data;
 
 $fp = fopen('data/checklistjson', 'w');
 fwrite($fp, $chk_json);
 fclose($fp);
+
+include "index.php"
 ?>
+
 </html>
