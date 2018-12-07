@@ -69,9 +69,6 @@
     </div>
        <div class="champ">
        <label for="equipement">Equipement</label>
-
-<label for="story">Tell us your story:</label>
-
 <textarea id="equipement" name="equipement"
           rows="5" cols="33">
 </textarea>
