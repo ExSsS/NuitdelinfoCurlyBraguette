@@ -19,7 +19,7 @@ fclose($fp);*/
 $data = file('data/checklist.json'); // reads an array of lines
 function replace_a_line($data) {
    if (stristr($data, date('l jS \of F Y')) {
-     return "\n".data;
+     return "\n".$data;
    }
    return $data;
 }
