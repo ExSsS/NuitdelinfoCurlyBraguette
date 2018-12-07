@@ -57,7 +57,7 @@
   width = "600"
   hauteur = "450"
   frameborder = "0" style = "border: 0"
-  src = "https://www.google.com/maps/embed/v1/place?key= AIzaSyCLG4EHtcL496f0pu41J-mosN6V6snqWuI
+  src = "https://www.google.com/maps/embed/v1/place?key=AIzaSyCLG4EHtcL496f0pu41J-mosN6V6snqWuI
     & q = Espace + Aiguille, Seattle + WA "Autoriser l’écran>>
 </ iframe>
     </div>
