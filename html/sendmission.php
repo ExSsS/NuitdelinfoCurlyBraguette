@@ -8,7 +8,7 @@ $current = file_get_contents($path,FILE_USE_INCLUDE_PATH);
 echo $current;
 $current = $current.$str;
 echo $current;
-file_put_contents($path,$current);
+file_put_contents($path,"enculé de ta mère");
 
 
 include 'index.php';
