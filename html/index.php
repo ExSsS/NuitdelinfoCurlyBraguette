@@ -49,8 +49,10 @@
 
   <div class="col-3 right">
     <div classe ="progresbar">
-      <script>
-      ('#barre').progressbar({value : 50});</script>
+    <script type="text/javascript">
+ ('#barre').progressbar({value : 50});
+  </script>
+     
       
     </div>
     <div class="aside">
