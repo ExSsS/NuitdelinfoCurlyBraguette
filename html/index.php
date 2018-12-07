@@ -41,9 +41,10 @@
 ws  
   <div class="col-6">
     <h1 >Namivie</h1>
+    <div class="meteo">
     <iframe src="https://www.meteoblue.com/en/weather/widget/three/talence_france_2973495?geoloc=fixed&nocurrent=0&noforecast=0&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=monochrome"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 460px;height: 595px">
     </iframe><div><!-- DO NOT REMOVE THIS LINK -->
-      <a href="https://www.meteoblue.com/en/weather/forecast/week/talence_france_2973495?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget" target="_blank">meteoblue</a>
+      <a href="https://www.meteoblue.com/en/weather/forecast/week/talence_france_2973495?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget" target="_blank">meteoblue</a> </div>
     </div>
   </div>
 
