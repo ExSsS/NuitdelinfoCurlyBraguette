@@ -28,12 +28,12 @@
     <ul>
     <form method="post" action="sendchecklist.php">
       <div>Checklist journalière</div>
-      <input type="checkbox" name="chk_panneauSolaires" class="check">Panneaux solaires<br/>
-      <input type="checkbox" name="chk_eoliennes" class="check">Eoliennes<br/>
-      <input type="checkbox" name="chk_robots" class="check">Robots<br/>
-      <input type="checkbox" name="chk_systemesSurvie" class="check">Système de survie<br/>
-      <input type="checkbox" name="chk_camp" class="check">Contrôle du camp<br/>
-      <input type="checkbox" name="chk_sante" class="check">Protocole de santé<br/>
+      <input type="checkbox" name="chk_panneauSolaires"> <div class="check">Panneaux solaires</div><br/>
+      <input type="checkbox" name="chk_eoliennes"> <div class="check">Eoliennes</div><br/>
+      <input type="checkbox" name="chk_robots">  <div class="check">Robots</div><br/>
+      <input type="checkbox" name="chk_systemesSurvie"> <div class="check">Système de survie</div><br/>
+      <input type="checkbox" name="chk_camp"> <div class="check">Contrôle du camp</div><br/>
+      <input type="checkbox" name="chk_sante"> <div class="check">Protocole de santé</div><br/>
       <input type="submit" value="Valider" />
     </form>
     </ul>
